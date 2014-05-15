@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05D1E5F71925840800A4F164 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D1E5F61925840800A4F164 /* Foundation.framework */; };
+		05D1E5F91925840800A4F164 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D1E5F81925840800A4F164 /* CoreGraphics.framework */; };
+		05D1E5FB1925840800A4F164 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D1E5FA1925840800A4F164 /* UIKit.framework */; };
+		05D1E6011925840800A4F164 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05D1E5FF1925840800A4F164 /* InfoPlist.strings */; };
+		05D1E6031925840800A4F164 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D1E6021925840800A4F164 /* main.m */; };
+		05D1E6071925840800A4F164 /* _hdAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D1E6061925840800A4F164 /* _hdAppDelegate.m */; };
+		05D1E60A1925840800A4F164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D1E6081925840800A4F164 /* Main.storyboard */; };
+		05D1E60D1925840800A4F164 /* _hdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D1E60C1925840800A4F164 /* _hdViewController.m */; };
+		05D1E60F1925840800A4F164 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05D1E60E1925840800A4F164 /* Images.xcassets */; };
+		05D1E6161925840800A4F164 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D1E6151925840800A4F164 /* XCTest.framework */; };
+		05D1E6171925840800A4F164 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D1E5F61925840800A4F164 /* Foundation.framework */; };
+		05D1E6181925840800A4F164 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D1E5FA1925840800A4F164 /* UIKit.framework */; };
+		05D1E6201925840800A4F164 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05D1E61E1925840800A4F164 /* InfoPlist.strings */; };
+		05D1E6221925840800A4F164 /* threehdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D1E6211925840800A4F164 /* threehdTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05D1E6191925840800A4F164 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05D1E5EB1925840800A4F164 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05D1E5F21925840800A4F164;
+			remoteInfo = threehd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05D1E5F31925840800A4F164 /* threehd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = threehd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05D1E5F61925840800A4F164 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05D1E5F81925840800A4F164 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		05D1E5FA1925840800A4F164 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		05D1E5FE1925840800A4F164 /* threehd-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "threehd-Info.plist"; sourceTree = "<group>"; };
+		05D1E6001925840800A4F164 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05D1E6021925840800A4F164 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05D1E6041925840800A4F164 /* threehd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "threehd-Prefix.pch"; sourceTree = "<group>"; };
+		05D1E6051925840800A4F164 /* _hdAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _hdAppDelegate.h; sourceTree = "<group>"; };
+		05D1E6061925840800A4F164 /* _hdAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _hdAppDelegate.m; sourceTree = "<group>"; };
+		05D1E6091925840800A4F164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05D1E60B1925840800A4F164 /* _hdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _hdViewController.h; sourceTree = "<group>"; };
+		05D1E60C1925840800A4F164 /* _hdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _hdViewController.m; sourceTree = "<group>"; };
+		05D1E60E1925840800A4F164 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		05D1E6141925840800A4F164 /* threehdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = threehdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05D1E6151925840800A4F164 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		05D1E61D1925840800A4F164 /* threehdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "threehdTests-Info.plist"; sourceTree = "<group>"; };
+		05D1E61F1925840800A4F164 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05D1E6211925840800A4F164 /* threehdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = threehdTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05D1E5F01925840800A4F164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D1E5F91925840800A4F164 /* CoreGraphics.framework in Frameworks */,
+				05D1E5FB1925840800A4F164 /* UIKit.framework in Frameworks */,
+				05D1E5F71925840800A4F164 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05D1E6111925840800A4F164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D1E6161925840800A4F164 /* XCTest.framework in Frameworks */,
+				05D1E6181925840800A4F164 /* UIKit.framework in Frameworks */,
+				05D1E6171925840800A4F164 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05D1E5EA1925840800A4F164 = {
+			isa = PBXGroup;
+			children = (
+				05D1E5FC1925840800A4F164 /* threehd */,
+				05D1E61B1925840800A4F164 /* threehdTests */,
+				05D1E5F51925840800A4F164 /* Frameworks */,
+				05D1E5F41925840800A4F164 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05D1E5F41925840800A4F164 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05D1E5F31925840800A4F164 /* threehd.app */,
+				05D1E6141925840800A4F164 /* threehdTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05D1E5F51925840800A4F164 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05D1E5F61925840800A4F164 /* Foundation.framework */,
+				05D1E5F81925840800A4F164 /* CoreGraphics.framework */,
+				05D1E5FA1925840800A4F164 /* UIKit.framework */,
+				05D1E6151925840800A4F164 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05D1E5FC1925840800A4F164 /* threehd */ = {
+			isa = PBXGroup;
+			children = (
+				05D1E6051925840800A4F164 /* _hdAppDelegate.h */,
+				05D1E6061925840800A4F164 /* _hdAppDelegate.m */,
+				05D1E6081925840800A4F164 /* Main.storyboard */,
+				05D1E60B1925840800A4F164 /* _hdViewController.h */,
+				05D1E60C1925840800A4F164 /* _hdViewController.m */,
+				05D1E60E1925840800A4F164 /* Images.xcassets */,
+				05D1E5FD1925840800A4F164 /* Supporting Files */,
+			);
+			path = threehd;
+			sourceTree = "<group>";
+		};
+		05D1E5FD1925840800A4F164 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05D1E5FE1925840800A4F164 /* threehd-Info.plist */,
+				05D1E5FF1925840800A4F164 /* InfoPlist.strings */,
+				05D1E6021925840800A4F164 /* main.m */,
+				05D1E6041925840800A4F164 /* threehd-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05D1E61B1925840800A4F164 /* threehdTests */ = {
+			isa = PBXGroup;
+			children = (
+				05D1E6211925840800A4F164 /* threehdTests.m */,
+				05D1E61C1925840800A4F164 /* Supporting Files */,
+			);
+			path = threehdTests;
+			sourceTree = "<group>";
+		};
+		05D1E61C1925840800A4F164 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05D1E61D1925840800A4F164 /* threehdTests-Info.plist */,
+				05D1E61E1925840800A4F164 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05D1E5F21925840800A4F164 /* threehd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05D1E6251925840800A4F164 /* Build configuration list for PBXNativeTarget "threehd" */;
+			buildPhases = (
+				05D1E5EF1925840800A4F164 /* Sources */,
+				05D1E5F01925840800A4F164 /* Frameworks */,
+				05D1E5F11925840800A4F164 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = threehd;
+			productName = threehd;
+			productReference = 05D1E5F31925840800A4F164 /* threehd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05D1E6131925840800A4F164 /* threehdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05D1E6281925840800A4F164 /* Build configuration list for PBXNativeTarget "threehdTests" */;
+			buildPhases = (
+				05D1E6101925840800A4F164 /* Sources */,
+				05D1E6111925840800A4F164 /* Frameworks */,
+				05D1E6121925840800A4F164 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05D1E61A1925840800A4F164 /* PBXTargetDependency */,
+			);
+			name = threehdTests;
+			productName = threehdTests;
+			productReference = 05D1E6141925840800A4F164 /* threehdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05D1E5EB1925840800A4F164 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = 3hd;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Simples;
+				TargetAttributes = {
+					05D1E6131925840800A4F164 = {
+						TestTargetID = 05D1E5F21925840800A4F164;
+					};
+				};
+			};
+			buildConfigurationList = 05D1E5EE1925840800A4F164 /* Build configuration list for PBXProject "threehd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05D1E5EA1925840800A4F164;
+			productRefGroup = 05D1E5F41925840800A4F164 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05D1E5F21925840800A4F164 /* threehd */,
+				05D1E6131925840800A4F164 /* threehdTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05D1E5F11925840800A4F164 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D1E60F1925840800A4F164 /* Images.xcassets in Resources */,
+				05D1E6011925840800A4F164 /* InfoPlist.strings in Resources */,
+				05D1E60A1925840800A4F164 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05D1E6121925840800A4F164 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D1E6201925840800A4F164 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05D1E5EF1925840800A4F164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D1E6071925840800A4F164 /* _hdAppDelegate.m in Sources */,
+				05D1E6031925840800A4F164 /* main.m in Sources */,
+				05D1E60D1925840800A4F164 /* _hdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05D1E6101925840800A4F164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D1E6221925840800A4F164 /* threehdTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05D1E61A1925840800A4F164 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05D1E5F21925840800A4F164 /* threehd */;
+			targetProxy = 05D1E6191925840800A4F164 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05D1E5FF1925840800A4F164 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05D1E6001925840800A4F164 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		05D1E6081925840800A4F164 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05D1E6091925840800A4F164 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05D1E61E1925840800A4F164 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05D1E61F1925840800A4F164 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05D1E6231925840800A4F164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		05D1E6241925840800A4F164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05D1E6261925840800A4F164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "threehd/threehd-Prefix.pch";
+				INFOPLIST_FILE = "threehd/threehd-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		05D1E6271925840800A4F164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "threehd/threehd-Prefix.pch";
+				INFOPLIST_FILE = "threehd/threehd-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		05D1E6291925840800A4F164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/threehd.app/threehd";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "threehd/threehd-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "threehdTests/threehdTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		05D1E62A1925840800A4F164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/threehd.app/threehd";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "threehd/threehd-Prefix.pch";
+				INFOPLIST_FILE = "threehdTests/threehdTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05D1E5EE1925840800A4F164 /* Build configuration list for PBXProject "threehd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05D1E6231925840800A4F164 /* Debug */,
+				05D1E6241925840800A4F164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05D1E6251925840800A4F164 /* Build configuration list for PBXNativeTarget "threehd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05D1E6261925840800A4F164 /* Debug */,
+				05D1E6271925840800A4F164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05D1E6281925840800A4F164 /* Build configuration list for PBXNativeTarget "threehdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05D1E6291925840800A4F164 /* Debug */,
+				05D1E62A1925840800A4F164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05D1E5EB1925840800A4F164 /* Project object */;
+}
