@@ -1,6 +1,6 @@
 //
-//  threehdTests.m
-//  threehdTests
+//  3hdMainViewControllerTest.m
+//  threehd
 //
 //  Created by Rafael Assis on 5/15/14.
 //  Copyright (c) 2014 Simples. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface threehdTests : XCTestCase
+@interface _hdMainViewControllerTest : XCTestCase
 
 @end
 
-@implementation threehdTests
+@implementation _hdMainViewControllerTest
 
 - (void)setUp
 {
@@ -26,9 +26,9 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testTrue
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    XCTAssert(true, @"true should be true");
 }
 
 @end

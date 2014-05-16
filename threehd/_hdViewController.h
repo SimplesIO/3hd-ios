@@ -10,4 +10,9 @@
 
 @interface _hdViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel * labelTimer;
+@property (strong, nonatomic) IBOutlet UIButton * buttonFire;
+
+- (IBAction)buttonFireTapped:(id)sender;
+
 @end

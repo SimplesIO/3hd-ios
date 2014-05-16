@@ -20,7 +20,7 @@
 		05D1E6171925840800A4F164 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D1E5F61925840800A4F164 /* Foundation.framework */; };
 		05D1E6181925840800A4F164 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D1E5FA1925840800A4F164 /* UIKit.framework */; };
 		05D1E6201925840800A4F164 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05D1E61E1925840800A4F164 /* InfoPlist.strings */; };
-		05D1E6221925840800A4F164 /* threehdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D1E6211925840800A4F164 /* threehdTests.m */; };
+		05D1E62E192587A700A4F164 /* 3hdMainViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D1E62D192587A700A4F164 /* 3hdMainViewControllerTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,9 @@
 		05D1E6151925840800A4F164 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		05D1E61D1925840800A4F164 /* threehdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "threehdTests-Info.plist"; sourceTree = "<group>"; };
 		05D1E61F1925840800A4F164 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		05D1E6211925840800A4F164 /* threehdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = threehdTests.m; sourceTree = "<group>"; };
+		05D1E62D192587A700A4F164 /* 3hdMainViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 3hdMainViewControllerTest.m; sourceTree = "<group>"; };
+		05D1E63119258FF800A4F164 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		05D1E63219258FF800A4F164 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,8 +139,8 @@
 		05D1E61B1925840800A4F164 /* threehdTests */ = {
 			isa = PBXGroup;
 			children = (
-				05D1E6211925840800A4F164 /* threehdTests.m */,
 				05D1E61C1925840800A4F164 /* Supporting Files */,
+				05D1E62D192587A700A4F164 /* 3hdMainViewControllerTest.m */,
 			);
 			path = threehdTests;
 			sourceTree = "<group>";
@@ -212,6 +214,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-PT",
 			);
 			mainGroup = 05D1E5EA1925840800A4F164;
 			productRefGroup = 05D1E5F41925840800A4F164 /* Products */;
@@ -260,7 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05D1E6221925840800A4F164 /* threehdTests.m in Sources */,
+				05D1E62E192587A700A4F164 /* 3hdMainViewControllerTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +282,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				05D1E6001925840800A4F164 /* en */,
+				05D1E63119258FF800A4F164 /* pt-PT */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -295,6 +299,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				05D1E61F1925840800A4F164 /* en */,
+				05D1E63219258FF800A4F164 /* pt-PT */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -356,7 +361,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
