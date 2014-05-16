@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  threehd
+
+  Created by Rafael Assis on 5/16/14.
+  Copyright (c) 2014 Simples. All rights reserved.
+*/
+
+"mainViewController_timeLabel" = "Dieta 3 horas!";
+"mainViewController_buttonFireIdle" = "Ativar!";
+"mainViewController_buttonFireRunning" = "Cancelar!";
+"mainViewController_pushMessage" = "Vamos la coma algo!";

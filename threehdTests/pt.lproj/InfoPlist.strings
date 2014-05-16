@@ -1,0 +1,5 @@
+/* Localized versions of Info.plist keys */
+
+"mainViewController_timeLabel" = "Dieta 3 horas!";
+"mainViewController_buttonFire" = "Ativar!";
+"mainViewController_pushMessage" = "Vamos la coma algo!";

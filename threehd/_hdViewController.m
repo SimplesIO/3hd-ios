@@ -11,6 +11,7 @@
 @interface _hdViewController ()
 
 - (void) localizeIt;
+- (void) updateButtonFireStatus;
 
 @end
 
@@ -19,9 +20,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    [self setLocalNotification:[[_hdLocalNotification alloc] initWithTimeInSecond:5]];
     [self localizeIt];
-	// Do any additional setup after loading the view, typically from a nib.
+    [self updateButtonFireStatus];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(reloadTable)
+                                                 name:@"NotificaitonComming"
+                                               object:nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -31,19 +37,26 @@
 }
 
 - (void) localizeIt{
-    
-    [[self labelTimer] setText:NSLocalizedString(@"3hd.mainViewController.timeLabel", nil)];
-
+    [[self labelTimer] setText:NSLocalizedString(@"mainViewController_timeLabel", nil)];
 }
 
 - (IBAction)buttonFireTapped:(id)sender {
+    [[self localNotification] notificationStatus] == _hdNotificationStatusIdle ? [[self localNotification] scheduleNotification]:[[self localNotification] unScheduleNotification];
+    [self updateButtonFireStatus];
     
-    UILocalNotification* localNotification = [[UILocalNotification alloc] init];
-    localNotification.fireDate = [NSDate dateWithTimeIntervalSinceNow:5];
-    localNotification.alertBody = @"Eat Something!";
-    localNotification.timeZone = [NSTimeZone defaultTimeZone];
-    [[UIApplication sharedApplication] scheduleLocalNotification:localNotification];
-    
+}
+
+- (void) updateButtonFireStatus{
+    if([[self localNotification] notificationStatus] == _hdNotificationStatusIdle){
+        [[self buttonFire] setTitle:NSLocalizedString(@"mainViewController_buttonFireIdle", nil) forState:UIControlStateNormal];
+    }else{
+        [[self buttonFire] setTitle:NSLocalizedString(@"mainViewController_buttonFireRunning", nil) forState:UIControlStateNormal];
+    }
+}
+
+- (void) reloadTable{
+    [[self localNotification] unScheduleNotification];
+    [self updateButtonFireStatus];
 }
 
 @end

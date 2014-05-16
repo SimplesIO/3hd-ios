@@ -1,4 +1,5 @@
 /* Localized versions of Info.plist keys */
 
-"3hd.mainViewController.timeLabel" = "Hey fire 3 hour diet!";
-"3hd.mainViewController.pushMessage" = "Come On and eat!";
+"mainViewController_timeLabel" = "Hey fire 3 hour diet!";
+"mainViewController_buttonFire" = "Fire!";
+"mainViewController_pushMessage" = "Come On and eat!";

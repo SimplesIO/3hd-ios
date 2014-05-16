@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "_hdLocalNotification.h"
 
 @interface _hdViewController : UIViewController
+
+@property (strong, nonatomic) _hdLocalNotification * localNotification;
 
 @property (strong, nonatomic) IBOutlet UILabel * labelTimer;
 @property (strong, nonatomic) IBOutlet UIButton * buttonFire;
